@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+:root {
+  --background-body-color: #fcbf49;
+  --font-color: #003049ff;
+  --background-main-color: #fffdfa;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: var(--background-body-color);
+  font-family: 'Sen', sans-serif;
+  font-size: 1em;
+}
+
+main {
+  color: var(--font-color);
+  max-width: 400px;
+  margin: 50px auto;
+  background: var(--background-main-color);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.calculator {
+  padding: 0px 5px 5px 5px;
+  width: 300px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background: var(--font-color);
+}
+
+.display {
+  text-align: right;
+  margin: 5px auto;
+  font-size: 2em;
+  height: 50px;
+  width: 100%;
+  color: var(--font-color);
+  border-radius: 10px;
+}
+
+.display:focus {
+  outline: none;
+}
+
+td {
+  padding: 3px;
+}
+
+.btn {
+  width: 65px;
+  height: 50px;
+  font-family: 'Sen';
+  font-size: 1.5em;
+  border: none;
+  background: #209a37;
+  color: var(--background-main-color);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-operator {
+  background: #f77f00;
+}
+
+.btn-eq {
+  background: #3592d4;
+}
+
+.btn-clear,
+.btn-del {
+  background: #d62828ff;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  filter: brightness(85%);
+}
