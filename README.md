@@ -15,3 +15,7 @@ Software web desenvolvido para testar meu aprendizado sobre função construtora
 ## 👨‍💻 Contato
 
 sguedes.victor@gmail.com
+
+## 💻 LinkedIn
+
+https://www.linkedin.com/in/victorsilvaguedes/
