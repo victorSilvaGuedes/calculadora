@@ -1,6 +1,6 @@
 # Calculadora
 
-Software web desenvolvido para testar meu aprendizado sobre função construtora
+Software web desenvolvido para testar meu aprendizado sobre função construtora.
 
 ![preview](.github/calculadora.png)
 
